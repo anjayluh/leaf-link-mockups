@@ -291,7 +291,6 @@ section .market-place {
     margin-left: -20px;
     position: absolute;
     top: 58px;
-    transform: translate3d(9px, 1.5px, 0px);
     transition: transform 0.3s ease, -webkit-transform 0.3s ease;
 }
 
