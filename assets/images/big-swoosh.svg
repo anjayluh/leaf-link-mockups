@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg x="-3280pt" y="0pt" width="10000pt" height="429pt" viewBox="-3280 0 10000 429" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g id="1">
+    <title>Layer 1</title>
+    <clipPath id="3">
+      <use xlink:href="#2"/>
+      <path id="2" d="M6720,0.000431065 C6720,0.000431065,-3280,-0.000733056,-3280,-0.000733056 C-3280,-0.000733056,-3280,428.999,-3280,428.999 C-3280,428.999,6720,429,6720,429 C6720,429,6720,0.000431065,6720,0.000431065 z"/>
+    </clipPath>
+    <g id="4" style="clip-path:url(#3);">
+      <title>ClipGroup</title>
+      <defs>
+        <title>Shape 1</title>
+        <g id="5">
+          <defs>
+            <path id="6" d="M2440,2.42661e-06 C1895.5,9.39793e-05,1466,429,999.999,429 C999.999,429,999.999,924.486,999.999,924.486 C999.999,924.486,2440,924.486,2440,924.486 C2440,924.486,2440,2.42661e-06,2440,2.42661e-06 z"/>
+          </defs>
+          <use xlink:href="#6" style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;opacity:1;stroke:none;"/>
+        </g>
+      </defs>
+      <use xlink:href="#5"/>
+      <defs>
+        <title>Shape 2</title>
+        <g id="7">
+          <defs>
+            <path id="8" d="M6720,-5.56985e-05 C6720,-5.56985e-05,2440,-1.59069e-06,2440,-1.59069e-06 C2440,-1.59069e-06,2440,924,2440,924 C2440,924,6720,924,6720,924 C6720,924,6720,-5.56985e-05,6720,-5.56985e-05 z"/>
+          </defs>
+          <use xlink:href="#8" style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;opacity:1;stroke:none;"/>
+        </g>
+      </defs>
+      <use xlink:href="#7"/>
+    </g>
+    <clipPath id="10">
+      <use xlink:href="#9"/>
+      <path id="9" d="M6720,0.000431065 C6720,0.000431065,-3280,-0.000733056,-3280,-0.000733056 C-3280,-0.000733056,-3280,428.999,-3280,428.999 C-3280,428.999,6720,429,6720,429 C6720,429,6720,0.000431065,6720,0.000431065 z"/>
+    </clipPath>
+    <g id="11" style="clip-path:url(#10);"/>
+  </g>
+</svg>

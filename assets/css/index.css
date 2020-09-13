@@ -31,10 +31,35 @@ body:before {
     content: " ";
 }
 
-.bg-sd-10 {
+.main-container {
     background-color: #e5f8f9;
+}
+
+.main-container.flip-background-image {
     min-height: 25vw;
     position: relative;
+}
+
+.main-container.flip-background-image:before {
+    background-position: bottom;
+    height: 100%;
+    -webkit-transform: rotateX(180deg);
+    transform: rotateX(180deg);
+}
+
+.main-container.flip-background-image:before {
+    background-image: url(../images/big-swoosh.svg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: auto 429px;
+    bottom: 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
 }
 
 .container {
