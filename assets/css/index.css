@@ -410,6 +410,9 @@ ul {
     .glide__slide>.glide__img-wrapper {
         width: 11.667%;
     }
+    .glide__slide>.glide__img-wrapper.big {
+        width: 8%;
+    }
 }
 
 @media (min-width: 768px) {
