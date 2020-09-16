@@ -395,6 +395,7 @@ ul {
 }
 
 .glide__img-wrapper {
+    margin-right: 6%;
     padding: 16px 32px 32px;
     background-color: #e5f8f9;
     flex: none;
