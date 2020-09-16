@@ -369,7 +369,7 @@ ul {
 }
 
 .glide__slide {
-    width: 1099px;
+    max-width: 1440px;
     height: 100%;
     flex-shrink: 0;
     margin-right: 5px;
@@ -403,18 +403,18 @@ ul {
 }
 
 .glide__img-wrapper.one {
-    padding-left: 0px;
+    margin-left: -30px;
 }
 
 @media (min-width: 1024px) {
     .glide__slide>.glide__img-wrapper {
-        width: 16.667%;
+        width: 11.667%;
     }
 }
 
 @media (min-width: 768px) {
     .glide__img-wrapper {
-        width: 25%;
+        width: 20%;
     }
 }
 
