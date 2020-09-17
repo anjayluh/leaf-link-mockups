@@ -108,6 +108,7 @@ p {
 }
 
 div.summary {
+    margin-top: 40px;
     flex: 0 0 42.857142857142854%;
     max-width: 42.857142857142854%;
     position: relative;
