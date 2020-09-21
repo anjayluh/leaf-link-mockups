@@ -1,8 +1,31 @@
 /* fonts */
 
 @font-face {
-    font-family: "sofia-pro-light";
-    src: url("https://dafonttop.com/wp-data/s/146/8146/file/sofiapro-light.otf") format("woff"), url("https://dafonttop.com/wp-data/s/146/8146/file/sofiapro-light.otf") format("opentype"), url("https://dafonttop.com/wp-data/s/146/8146/file/sofiapro-light.otf") format("truetype");
+    font-family: "Sofia Pro";
+    src: url("../fonts/sofiapro/SofiaProRegular.woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Sofia Pro";
+    src: url("../fonts/sofiapro/SofiaProMedium.woff2");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Sofia Pro";
+    src: url("../fonts/sofiapro/SofiaProSemiBold.woff2");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Sofia Pro";
+    src: url("../fonts/sofiapro/SofiaPro-Bold.ttf");
+    font-weight: 700;
+    font-style: normal;
 }
 
 body {
@@ -15,7 +38,7 @@ body {
     font-weight: 400;
     line-height: 1.42857143;
     background-image: none;
-    font-family: Sofia Pro, sans-serif;
+    font-family: "Sofia Pro";
     color: #1b1443;
 }
 
@@ -81,19 +104,19 @@ div.row {
 }
 
 .sub-head {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     letter-spacing: 0.2em;
     text-transform: uppercase;
     color: #787393;
-    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
     font-weight: 600;
 }
 
 .heading-2,
 .rich-text h2,
 .timeline__description h2 {
-    font-size: 2rem;
-    margin-bottom: 56px;
+    font-size: 3rem;
+    margin-bottom: 40px;
     line-height: 110%;
     font-weight: 500;
 }
@@ -154,7 +177,7 @@ div.summary {
 .card-title {
     margin-bottom: 20px;
     padding-bottom: 10px;
-    font-size: 0.7rem;
+    font-size: 0.95rem;
     border: 0 solid #e2e8f0;
     border-bottom-width: 2px;
     border-color: #01bbc8;
@@ -164,21 +187,23 @@ div.summary {
 
 .summary .number {
     letter-spacing: -0.03em;
-    font-size: 3rem;
+    font-size: 4rem;
     margin-bottom: 38px;
     line-height: 92%;
     box-sizing: border-box;
     border: 0 solid #e2e8f0;
     display: flex;
+    font-weight: 600;
 }
 
 .summary .number .currency {
-    font-size: 2rem;
-    margin-top: -8px;
+    font-size: 3rem;
+    margin-top: -3px;
+    margin-right: 3px;
 }
 
 .summary .text {
-    font-size: 0.8rem;
+    font-size: 1rem;
     color: #787393;
     line-height: 140%;
     box-sizing: border-box;
@@ -199,14 +224,14 @@ h3 {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    font-weight: bold;
+    font-weight: Bold;
 }
 
 .ml-20 {
     margin-left: 20px;
 }
 
-section .market-place {
+div .market-place {
     flex-direction: column;
     display: flex;
     padding-top: 96px;
@@ -231,16 +256,20 @@ section .market-place {
 }
 
 .column-one {
-    margin-right: 7%;
+    margin-right: 32px;
 }
 
 .column-two {
     margin-top: 73px;
-    margin-left: auto;
+}
+
+.card-container {
+    max-width: 265px;
+    min-height: 255px;
 }
 
 .card-container.item-one {
-    margin-bottom: 12%;
+    margin-bottom: 32px;
 }
 
 .container.bottom {
@@ -289,7 +318,7 @@ section .market-place {
     height: 40px;
     background-color: #fff;
     left: 0;
-    margin-left: -20px;
+    margin-left: -17px;
     position: absolute;
     top: 58px;
     transition: transform 0.3s ease, -webkit-transform 0.3s ease;
@@ -306,7 +335,7 @@ section .market-place {
 .glide__bullet {
     position: relative;
     color: #787393;
-    font-size: 0.6rem;
+    font-size: 0.7rem;
     letter-spacing: 0.1em;
     margin-right: 32px;
     margin-bottom: 32px;
@@ -352,8 +381,8 @@ button.glide__bullet {
     white-space: nowrap;
     display: flex;
     flex-wrap: nowrap;
-    width: 25497px;
     transform: translate3d(0px, 0px, 0px);
+    margin-left: 50px;
 }
 
 @media (min-width: 1024px) {
@@ -417,10 +446,8 @@ ul {
     }
 }
 
-@media (min-width: 768px) {
-    .glide__img-wrapper {
-        width: 20%;
-    }
+.glide__img-wrapper {
+    width: 110px;
 }
 
 .glide__img {
