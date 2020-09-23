@@ -32,12 +32,10 @@ body {
     background-color: #fff;
     margin: 0;
     padding: 0;
-    visibility: visible;
     font-style: normal;
     font-size: 20px;
     font-weight: 400;
     line-height: 1.42857143;
-    background-image: none;
     font-family: "Sofia Pro", sans-serif;
     color: #1b1443;
 }
@@ -52,6 +50,11 @@ input[type="search"] {
 body:before {
     display: block;
     content: " ";
+}
+
+svg {
+    stroke: transparent;
+    stroke-width: 0px;
 }
 
 .body-wrapper {
@@ -86,7 +89,6 @@ body:before {
 }
 
 .container {
-    border: 0 solid #e2e8f0;
     max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
