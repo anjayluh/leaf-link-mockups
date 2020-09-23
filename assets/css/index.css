@@ -100,9 +100,83 @@ div.row {
     justify-content: flex-start;
     display: flex;
     flex-wrap: wrap;
-    margin-left: -16px;
+    margin-left: auto;
     margin-right: -16px;
     box-sizing: border-box;
+}
+
+@media (max-width: 930px) {
+    div.row {
+        flex-direction: column;
+    }
+    div.container.bottom .row {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    div.market-place {
+        padding-top: 0px;
+        margin-top: 0;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 90%;
+    }
+    div.summary {
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-right: 0;
+        padding-left: 0;
+        max-width: 90%;
+    }
+    div.column-one,
+    div.column-two {
+        width: 50%;
+    }
+    div.card-container {
+        max-width: 100%;
+        min-height: 264px;
+    }
+    div.column-two {
+        margin-top: 0;
+    }
+    ul.glide__slides {
+        margin-left: auto;
+        margin-right: auto;
+        flex-wrap: wrap;
+        justify-content: left;
+    }
+    ul .glide__slide {
+        width: 160px;
+    }
+}
+
+@media (max-width: 640px) {
+    div.summary {
+        flex-direction: column;
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-right: 0;
+        padding-left: 0;
+        max-width: 100%;
+    }
+    div.column-one,
+    div.column-two {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    div.card-container {
+        max-width: 100%;
+        min-height: unset;
+        margin-bottom: 32px;
+    }
+    ul.glide__slides {
+        /* margin-left: auto;
+        margin-right: auto;
+        flex-wrap: wrap; */
+        justify-content: center;
+    }
 }
 
 .sub-heading {
@@ -291,8 +365,8 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    margin-left: -16px;
-    margin-right: -16px;
+    margin-left: auto;
+    margin-right: auto;
     justify-content: center;
 }
 
@@ -389,7 +463,7 @@ h3 {
     white-space: nowrap;
     display: flex;
     justify-content: space-between;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     transform: translate3d(0px, 0px, 0px);
     margin-left: 50px;
 }
@@ -437,15 +511,12 @@ a {
 }
 
 .glide__img-wrapper {
+    margin-left: -30px;
     padding: 16px 32px 32px;
     background-color: #e5f8f9;
     flex: none;
     width: 50%;
     border: 0 solid #e2e8f0;
-}
-
-.glide__img-wrapper.one {
-    margin-left: -30px;
 }
 
 .glide__img-wrapper.big {
